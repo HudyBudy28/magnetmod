@@ -1,0 +1,25 @@
+{
+  "parent": "magnetmod:magic_metal",
+  "display": {
+    "icon": { "id": "magnetmod:inventory_magnet" },
+    "title": "Attractive Personality",
+    "description": "Craft an Inventory Magnet and keep it in your off hand",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_inventory_magnet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "magnetmod:inventory_magnet" }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_inventory_magnet"]
+  ]
+}

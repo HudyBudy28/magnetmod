@@ -1,0 +1,25 @@
+{
+  "parent": "magnetmod:attractive_personality",
+  "display": {
+    "icon": { "id": "magnetmod:advanced_inventory_magnet" },
+    "title": "Heavy Lifting",
+    "description": "Craft an Advanced Inventory Magnet and pull in everything within 12 blocks",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_advanced_inventory_magnet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "magnetmod:advanced_inventory_magnet" }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_advanced_inventory_magnet"]
+  ]
+}

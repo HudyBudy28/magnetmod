@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "display": {
+    "icon": { "id": "magnetmod:magnetized_iron" },
+    "title": "Magic Metal",
+    "description": "Combine iron and redstone to make something with a pull. FUCK YOU WILL",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_magnetized_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "magnetmod:magnetized_iron" }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_magnetized_iron"]
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "magnetmod:item/advanced_inventory_magnet"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "GMG",
+    " G "
+  ],
+  "key": {
+    "G": "minecraft:gold_block",
+    "M": "magnetmod:inventory_magnet"
+  },
+  "result": { "id": "magnetmod:advanced_inventory_magnet", "count": 1 }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    "MCM",
+    " M "
+  ],
+  "key": {
+    "M": "magnetmod:magnetized_iron",
+    "C": "minecraft:chest"
+  },
+  "result": { "id": "magnetmod:inventory_magnet", "count": 1 }
+}
